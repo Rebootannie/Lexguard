@@ -1,0 +1,10 @@
+.venv
+__pycache__
+.git
+.streamlit/config.toml
+archive
+archive.zip
+test_upload.py
+test_contract.pdf
+C:\Users\Adwik\.gemini\antigravity-ide\scratch\smart_ats\fine_tuning\evaluate.py
+*.md

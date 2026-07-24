@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  lexguard-ai:
+    build: .
+    container_name: lexguard-ai
+    ports:
+      - "8501:8501"
+    volumes:
+      # Mount models folder so checkpoints persist across container restarts
+      - ./backend/models:/app/backend/models
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped

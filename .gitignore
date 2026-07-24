@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.streamlit/
+backend/models/contract-classifier/checkpoint-*/optimizer.pt
+backend/models/contract-classifier/checkpoint-*/model.safetensors
+backend/models/contract-classifier/checkpoint-*/training_args.bin
+backend/models/contract-classifier/checkpoint-*/rng_state.pth
+*.pt
+*.safetensors
+*.bin
